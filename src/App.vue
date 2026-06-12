@@ -1,10 +1,14 @@
 <script setup lang="ts">
+import ClickCounter from './components/ClickCounter.vue'
+import ItemList from './components/ItemList.vue'
 import WelcomeMessage from './components/WelcomeMessage.vue'
 </script>
 
 <template>
   <main>
-    <WelcomeMessage msg="Webエンジニアになろう講習会へようこそ" />
+    <WelcomeMessage msg="Todoリスト" />
+    <ClickCounter />
+    <ItemList />
   </main>
 </template>
 
